@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Inter;
+}
+
+.hero-bg {
+  background-image: url("/assests/images/png/hero_bg.png");
+  width: 100%;
+  padding-inline: 16px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 748px;
+}
+
+.mx-width {
+  max-width: 1220px;
+  width: 100%;
+  margin-inline: auto;
+}
+
+.nav-btn {
+  width: 200px;
+  height: 51px;
+  border-radius: 50px;
+  background-color: #ea0041;
+  cursor: pointer;
+  border: none;
+}
+.hero-btn {
+  width: 291px;
+  height: 51px;
+  border-radius: 50px;
+  background-color: #ea0041;
+  cursor: pointer;
+  border: none;
+}
+
+.hero-btn:hover {
+  border: 2px solid #ea0041;
+  background-color: white;
+  color: #ea0041;
+  transition-duration: 2s;
+}
+.nav-btn:hover {
+  border: 2px solid #ea0041;
+  background-color: white;
+  color: #ea0041;
+  transition-duration: 2s;
+}
+
+.font-normal {
+  font-weight: 400;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+.font-semibold {
+  font-weight: 600;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+.font-extrabold {
+  font-weight: 800;
+}
+
+.d-flex {
+  display: flex;
+}
+.d-grid {
+  display: grid;
+}
+
+.grid-col {
+  grid-template-columns: auto auto auto ;
+  
+}
+
+.gap-col {
+  column-gap: 10px;
+}
+.gap-row {
+  row-gap: 36px;
+}
+
+.core-card-main{
+  padding-top: 82px;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.gap-sm {
+  gap: 35px;
+}
+
+.gap-base {
+  gap: 16px;
+}
+.gap-lg {
+  gap: 6px;
+}
+
+nav {
+  padding-top: 33px;
+  padding-bottom: 128px;
+}
+
+.hero-main-text {
+  line-height: 110%;
+  max-width: 599px;
+  width: 100%;
+}
+.hero-text {
+  line-height: 140%;
+  max-width: 567px;
+  width: 100%;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.section-how-we {
+  line-height: 100%;
+  padding-top: 70px;
+}
+
+.section-how-we-card {
+  max-width: 358px;
+  width: 100%;
+  border-radius: 30px;
+  background-color: #fff;
+  box-shadow: -1px 7px 44.4px 0px rgba(0, 0, 0, 0.2);
+  padding: 46px 43px 37px 43px;
+}
+
+.section-how-we-card-img {
+  width: 94px;
+  height: 94px;
+  border-radius: 100px;
+  background-color: #ea0041;
+}
+
+.service-card {
+  line-height: 227.2%;
+}
+
+.ticket-management {
+  line-height: 200%;
+  padding-left: 7px;
+}
+
+.how-we-card-main {
+  gap: 27px;
+  width: 100%;
+  padding-block: 39px 108px;
+}
+
+.business-bg-img {
+  background-image: url("/assests/images/png/business-bg.png");
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 71px 216px 71px 200px;
+  /* height: 315px; */
+}
+
+.business-class {
+  line-height: 100%;
+  max-width: 707px;
+  width: 100%;
+}
+
+.core-value {
+  line-height: 100%;
+  padding-top: 85px;
+}
+
+.people-focused-card {
+  max-width: 387px;
+  width: 100%;
+}
+
+.people-focused-card {
+  position: relative;
+  max-width: 387px;
+  padding: 57px 42px 20px 41px;
+  border: 1px solid #000;
+  background: #fff;
+}
+.people-card-content {
+  line-height: 20px;
+  text-align: start;
+}
+.people-card-icon-img {
+  width: 30px;
+  height: 30px;
+}
+.people-card-icon {
+  position: absolute;
+  top: -30px;
+  left: 18%;
+  transform: translateX(-50%);
+  background-color: #e5003f;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.people-name {
+  line-height: 238%;
+}
+
+.our-focus {
+  line-height: 142%;
+}
+
+
+.dowload-bg{
+  background-color: #EA0041;
+  width: 100%;
+}
+
+.dowload-section-main-content {
+  line-height: 100%;
+}
