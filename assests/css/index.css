@@ -63,6 +63,22 @@ body {
   cursor: pointer;
   border: none;
 }
+.business-btn {
+  width: 200px;
+  height: 51px;
+  border-radius: 50px;
+  background-color: #ea0041;
+  cursor: pointer;
+  border: none;
+}
+.nav-btn {
+  width: 200px;
+  height: 51px;
+  border-radius: 50px;
+  background-color: #ea0041;
+  cursor: pointer;
+  border: none;
+}
 
 .hero-btn {
   width: 291px;
@@ -81,6 +97,12 @@ body {
 }
 .nav-btn:hover {
   border: 2px solid #ea0041;
+  background-color: white;
+  color: #ea0041;
+  transition-duration: 2s;
+}
+.business-btn:hover {
+  border: 1px solid #ea0041;
   background-color: white;
   color: #ea0041;
   transition-duration: 2s;
@@ -453,6 +475,9 @@ nav {
     font-size: 30px;
   }
 
+  .hero-btn{
+    font-size: 10px;
+  }
 
   .nav-logo {
     width: 200px;
@@ -558,7 +583,11 @@ nav {
   }
 
   .nav-btn {
-    /* display: none; */
+    display: none;
+        width: 180px;
+    height: 40px;
+  }
+  .business-btn {
         width: 180px;
     height: 40px;
   }
