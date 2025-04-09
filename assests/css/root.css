@@ -1,43 +1,46 @@
 :root {
+  --font-small: 13px;
   --font: 14px;
   --font-sm: 15px;
-  --font-md : 19px;
+  --font-md: 19px;
   --font-base: 50px;
   --font-lg: 22px;
   --font-xl: 21px;
 
-   --color-primary: #fff;
-   --color-secondary:#EA0041;
-   --color-tertiary:#0C1957;
+  --color-primary: #fff;
+  --color-secondary: #ea0041;
+  --color-tertiary: #0c1957;
+}
+.font-small {
+  font-size: var(--font-small);
 }
 
-.font{
-    font-size: var(--font);
+.font {
+  font-size: var(--font);
 }
-.font-sm{
-    font-size: var(--font-sm);
+.font-sm {
+  font-size: var(--font-sm);
 }
-.font-md{
-    font-size: var(--font-md);
+.font-md {
+  font-size: var(--font-md);
 }
-.font-base{
-    font-size: var(--font-base);
+.font-base {
+  font-size: var(--font-base);
 }
-.font-lg{
-    font-size: var(--font-lg);
+.font-lg {
+  font-size: var(--font-lg);
 }
-.font-xl{
-    font-size: var(--font-xl);
-}
-
-
-.color-primary{
-    color :var(--color-primary)
-}
-.color-secondary{
-    color :var(--color-secondary)
+.font-xl {
+  font-size: var(--font-xl);
 }
 
-.color-tertiary{
-    color :var(--color-tertiary)
+.color-primary {
+  color: var(--color-primary);
+}
+.color-secondary {
+  color: var(--color-secondary);
+}
+
+.color-tertiary {
+  color: var(--color-tertiary);
 }

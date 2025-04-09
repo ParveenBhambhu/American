@@ -12,6 +12,33 @@ body {
   font-family: Inter;
 }
 
+.nav-links {
+  transition: all 0.3s ease-in-out;
+}
+.nav-btn {
+  padding: 0.6rem 1.2rem;
+  border: 1px solid #000;
+  background: transparent;
+  cursor: pointer;
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+.hamburger span {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  display: block;
+  border-radius: 2px;
+}
+
+
+
+
 .hero-bg {
   background-image: url("/assests/images/png/hero_bg.png");
   width: 100%;
@@ -36,6 +63,7 @@ body {
   cursor: pointer;
   border: none;
 }
+
 .hero-btn {
   width: 291px;
   height: 51px;
@@ -84,8 +112,7 @@ body {
 }
 
 .grid-col {
-  grid-template-columns: auto auto auto ;
-  
+  grid-template-columns: auto auto auto;
 }
 
 .gap-col {
@@ -95,8 +122,9 @@ body {
   row-gap: 36px;
 }
 
-.core-card-main{
+.core-card-main {
   padding-top: 82px;
+  padding-inline: 16px;
 }
 
 .justify-between {
@@ -148,6 +176,7 @@ nav {
 .section-how-we {
   line-height: 100%;
   padding-top: 70px;
+  padding-inline: 16px;
 }
 
 .section-how-we-card {
@@ -157,13 +186,6 @@ nav {
   background-color: #fff;
   box-shadow: -1px 7px 44.4px 0px rgba(0, 0, 0, 0.2);
   padding: 46px 43px 37px 43px;
-}
-
-.section-how-we-card-img {
-  width: 94px;
-  height: 94px;
-  border-radius: 100px;
-  background-color: #ea0041;
 }
 
 .service-card {
@@ -179,6 +201,7 @@ nav {
   gap: 27px;
   width: 100%;
   padding-block: 39px 108px;
+  padding-inline: 16px;
 }
 
 .business-bg-img {
@@ -200,6 +223,7 @@ nav {
 .core-value {
   line-height: 100%;
   padding-top: 85px;
+  padding-inline: 16px;
 }
 
 .people-focused-card {
@@ -241,12 +265,397 @@ nav {
   line-height: 142%;
 }
 
-
-.dowload-bg{
-  background-color: #EA0041;
+.dowload-bg {
+  background-color: #ea0041;
   width: 100%;
+  padding-top: 74px;
+  margin-top: 104px;
+  position: relative;
+  padding-inline: 16px;
 }
 
 .dowload-section-main-content {
   line-height: 100%;
+}
+
+.cybersecurity-risk-assessment {
+  line-height: 140%;
+}
+
+.dowload-section-content {
+  gap: 20px;
+  max-width: 734px;
+  width: 100%;
+  margin-inline: auto;
+  padding-top: 20px;
+}
+
+.dowload-btn {
+  width: 216px;
+  height: 51px;
+  border-radius: 50px;
+  background-color: #0c1957;
+  cursor: pointer;
+  border: none;
+}
+
+.dowload-btn:hover {
+  border: 2px solid #0c1957;
+  background-color: white;
+  color: #0c1957;
+  transition-duration: 2s;
+}
+
+.dowolad-text-main {
+  gap: 20px;
+}
+.book-img-main {
+  position: absolute;
+  bottom: 47px;
+  left: -67px;
+}
+
+.red-circle-dev {
+  max-width: 536px;
+  width: 100%;
+  height: 536px;
+  background-color: #ea0041;
+  border-radius: 536px;
+  position: relative;
+  top: 70px;
+}
+
+.logo-card {
+  max-width: 202px;
+  width: 100%;
+  border: 1px solid #bababa;
+}
+.gold-logo {
+  padding: 12px 46px 11px 47px;
+}
+.dell-logo {
+  padding: 28px 16px 25px 16px;
+}
+.microsoft-logo {
+  padding: 24px 20px 18px 15px;
+}
+.sentiel-logo {
+  padding: 8px 43px 12px 43px;
+}
+.fortinet-logo {
+  padding: 31px 15px 29px 17px;
+}
+.logo-main {
+  gap: 10px;
+  padding-top: 199px;
+  padding-inline: 16px;
+  flex-wrap: wrap; 
+  justify-content: center;
+}
+
+.footer-bg {
+  background-color: #0c1957;
+  width: 100%;
+  padding: 58px 252px 42px 181px;
+  margin-top: 60px;
+}
+
+.footer-links {
+  gap: 4px;
+}
+.copyright {
+  line-height: 357.143%;
+}
+
+.links-copyright-main {
+  gap: 12px;
+}
+
+.footer-main {
+  gap: 20px;
+}
+
+.service-card-img {
+  width: 94px;
+  height: 94px;
+}
+.line-arrow-img-class {
+  width: 18px;
+  height: 173px;
+}
+
+
+@media screen and (max-width: 1024px) {
+
+  .nav-links{
+    display: none;
+  }
+
+  .hero-content-main{
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero-main-text{
+    max-width: 100%;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .service-security-text  {
+    text-align: center;
+  }
+  .hero-text {
+    text-align: center;
+  }
+
+  .how-we-card-main {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+  }
+  .section-how-we-card {
+    max-width: 100%;
+    width: 100%;
+  }
+  .business-bg-img {
+    padding: 50px 80px;
+  }
+  .core-card-main {
+    grid-template-columns: auto auto;
+    padding-top: 60px;
+  }
+  .people-focused-card {
+    max-width: 100%;
+    width: 100%;
+    padding: 57px 42px 20px 41px;
+  }
+  .logo-main {
+    padding-top: 130px;
+  }
+  .footer-bg {
+    padding: 40px 150px 30px 80px;
+  }
+  .book-img {
+    width: 640px;
+    height: 480px;
+  }
+  .red-circle-dev {
+    max-width: 480px;
+    width: 100%;
+    height: 480px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+ .hero-main-text{
+    font-size: 30px;
+  }
+
+
+  .nav-logo {
+    width: 200px;
+    height: 30px;
+  }
+
+  .hero-bg{
+    height: 700px;
+  }
+
+  .section-how-we-card {
+    padding: 24px 27px 22px 12px;
+  }
+  .service-card-img {
+    width: 50px;
+    height: 50px;
+  }
+  .section-how-we {
+    font-size: 40px;
+  }
+  .business-class {
+    font-size: 32px;
+    max-width: 100%;
+    width: 100%;
+  }
+ 
+  .people-focused-card {
+    padding: 40px 20px 12px 25px;
+  }
+  .core-value {
+    padding-top: 50px;
+    font-size: 40px;
+  }
+  .logo-main {
+    padding-top: 100px;
+  }
+  .footer-bg {
+    padding: 40px 80px 30px 80px;
+    margin-top: 60px;
+  }
+  .footer-main {
+    flex-direction: column;
+  }
+  .links-copyright-main {
+    justify-content: center;
+    align-items: center;
+  }
+  .copyright {
+    line-height: 150%;
+    text-align: center;
+  }
+  .footer-logo {
+    width: 200px;
+    height: 30px;
+  }
+  .logo {
+    width: 30px;
+    height: 30px;
+  }
+  .dowload-section-main-content {
+    font-size: 40px;
+  }
+  .book-img {
+    width: 500px;
+    height: 420px;
+  }
+  .red-circle-dev {
+    max-width: 400px;
+    width: 100%;
+    height: 400px;
+    top: 10px;
+  }
+  .book-img-main {
+    bottom: -27px;
+    left: 5px;
+  }
+
+  .dowload-bg {
+    padding-top: 38px;
+    margin-top: 10px;
+  }
+
+
+  .nav-links {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background: white;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+    padding: 1rem 0;
+    z-index: 10;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .nav-btn {
+    /* display: none; */
+        width: 180px;
+    height: 40px;
+  }
+}
+
+
+@media screen and (max-width: 640px) {
+
+ .hero-main-text{
+    font-size: 25px;
+    font-weight: 700;
+  }
+
+  .how-we-card-main {
+    grid-template-columns: auto;
+  }
+
+  .service-card-content {
+    justify-content: center;
+  }
+  .section-how-we {
+    font-size: 30px;
+  }
+  .business-class {
+    font-size: 20px;
+    text-align: center;
+  }
+  .business-bg-img {
+    padding: 20px 30px;
+  }
+  .business-main {
+    flex-direction: column;
+  }
+  .line-arrow-img-class {
+    width: 10px;
+    height: 80px;
+  }
+  .nav-btn {
+    width: 140px;
+    height: 30px;
+  }
+  .core-card-main {
+    grid-template-columns: auto;
+    padding-top: 50px;
+  }
+  .core-value {
+    padding-top: 50px;
+    font-size: 30px;
+  }
+  .people-img {
+    width: 20px;
+    height: 20px;
+  }
+  .people-card-icon {
+    width: 45px;
+    height: 45px;
+  }
+  .logo-main {
+    padding-top: 80px;
+    grid-template-columns: auto auto;
+  }
+
+  .book-img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .red-circle-dev {
+    max-width: 250px;
+    width: 100%;
+    height: 250px;
+  }
+  .dowload-section-main-content {
+    font-size: 24px;
+  }
+  .cybersecurity-risk-assessment {
+    font-size: 12px;
+  }
+  .dowload-btn {
+    width: 140px;
+    height: 30px;
+  }
+    .hero-btn {
+    width: 200px;
+    height: 40px;
+    font-weight: 600;
+  }
+
+  .service-security-text{
+    font-size: 15px;
+  }
+
+  .hero-text{
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .hero-content-main{
+    gap: 20px;
+  }
 }

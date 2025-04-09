@@ -11,15 +11,27 @@
     <header class="hero-bg">
       <div class="mx-width">
         <!-- ---------------------navbar start------------------ -->
-        <nav class="d-flex justify-between align-center gap-sm mx-width">
-          <a href="">
+        <nav class="d-flex justify-between align-center gap-base mx-width">
+          <a href="#">
             <img
               src="./assests/images/png/logo.png"
               alt="Logo-img"
               width="265px"
               height="34px"
-          /></a>
-          <div class="d-flex justify-between align-center gap-sm">
+              class="nav-logo"
+            />
+          </a>
+
+          <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+
+          <div
+            class="d-flex justify-between align-center gap-sm nav-links"
+            id="navLinks"
+          >
             <a href="#" class="font-sm font-medium color-primary">Nonprofits</a>
             <a href="#" class="font-sm font-medium color-primary">Services</a>
             <a href="#" class="font-sm font-medium color-primary">About</a>
@@ -29,6 +41,7 @@
             <a href="#" class="font-sm font-medium color-primary">Careers</a>
             <a href="#" class="font-sm font-medium color-primary">Nonprofits</a>
           </div>
+
           <button class="nav-btn color-primary font font-bold nav-btn:hover">
             Contact Us
           </button>
@@ -36,9 +49,9 @@
         <!-- ---------------------navbar end------------------ -->
 
         <!-- ------------------herosection start --------------------- -->
-        <div class="d-flex flex-col gap-sm">
+        <div class="d-flex flex-col gap-sm hero-content-main">
           <div class="d-flex flex-col gap-base">
-            <p class="font-md color-primary font-medium">
+            <p class="font-md color-primary font-medium service-security-text">
               Service, Security & Strategy
             </p>
             <p class="font-base font-extrabold hero-main-text color-primary">
@@ -67,18 +80,15 @@
           How We Do It
         </p>
 
-        <div class="how-we-card-main d-flex align-center justify-between">
+        <div class="how-we-card-main d-flex align-center">
           <!-------- Card 1 start------->
           <div class="section-how-we-card">
             <div class="d-flex flex-col gap-lg align-center">
-              <div
-                class="section-how-we-card-img d-flex align-center justify-center"
-              >
+              <div class="d-flex align-center justify-center">
                 <img
-                  src="./assests/images/png/card-1-img.png"
-                  width="58px"
-                  height="63px"
-                  alt=""
+                  src="./assests/images/png/service.png"
+                  class="service-card-img"
+                  alt="service-img"
                 />
               </div>
               <p
@@ -88,7 +98,7 @@
               </p>
             </div>
 
-            <div class="d-flex align-center">
+            <div class="d-flex align-center service-card-content">
               <img
                 src="./assests/images/png/red-arrow.png"
                 width="10px"
@@ -99,7 +109,7 @@
                 Ticket Management/SLA's
               </p>
             </div>
-            <div class="d-flex align-center">
+            <div class="d-flex align-center service-card-content">
               <img
                 src="./assests/images/png/red-arrow.png"
                 width="10px"
@@ -110,7 +120,7 @@
                 Ticket Escalation
               </p>
             </div>
-            <div class="d-flex align-center">
+            <div class="d-flex align-center service-card-content">
               <img
                 src="./assests/images/png/red-arrow.png"
                 width="10px"
@@ -121,7 +131,7 @@
                 Proactive Maintenance
               </p>
             </div>
-            <div class="d-flex align-center">
+            <div class="d-flex align-center service-card-content">
               <img
                 src="./assests/images/png/red-arrow.png"
                 width="10px"
@@ -132,7 +142,7 @@
                 Patch Management
               </p>
             </div>
-            <div class="d-flex align-center">
+            <div class="d-flex align-center service-card-content">
               <img
                 src="./assests/images/png/red-arrow.png"
                 width="10px"
@@ -143,7 +153,7 @@
                 Automation
               </p>
             </div>
-            <div class="d-flex align-center">
+            <div class="d-flex align-center service-card-content">
               <img
                 src="./assests/images/png/red-arrow.png"
                 width="10px"
@@ -154,7 +164,7 @@
                 Best Practices
               </p>
             </div>
-            <div class="d-flex align-center">
+            <div class="d-flex align-center service-card-content">
               <img
                 src="./assests/images/png/red-arrow.png"
                 width="10px"
@@ -165,7 +175,7 @@
                 Tools and Monitoring
               </p>
             </div>
-            <div class="d-flex align-center">
+            <div class="d-flex align-center service-card-content">
               <img
                 src="./assests/images/png/red-arrow.png"
                 width="10px"
@@ -182,14 +192,11 @@
           <!-------- Card 2 start------->
           <div class="section-how-we-card">
             <div class="d-flex flex-col gap-lg align-center">
-              <div
-                class="section-how-we-card-img d-flex align-center justify-center"
-              >
+              <div class="d-flex align-center justify-center">
                 <img
-                  src="./assests/images/png/card-1-img.png"
-                  width="58px"
-                  height="63px"
-                  alt=""
+                  src="./assests/images/png/security.png"
+                  class="service-card-img"
+                  alt="security-img"
                 />
               </div>
               <p
@@ -199,7 +206,7 @@
               </p>
             </div>
 
-            <div class="d-flex align-center">
+            <div class="d-flex align-center service-card-content">
               <img
                 src="./assests/images/png/red-arrow.png"
                 width="10px"
@@ -210,7 +217,7 @@
                 Compliance
               </p>
             </div>
-            <div class="d-flex align-center">
+            <div class="d-flex align-center service-card-content">
               <img
                 src="./assests/images/png/red-arrow.png"
                 width="10px"
@@ -221,7 +228,7 @@
                 IT Security Assessment
               </p>
             </div>
-            <div class="d-flex align-center">
+            <div class="d-flex align-center service-card-content">
               <img
                 src="./assests/images/png/red-arrow.png"
                 width="10px"
@@ -232,7 +239,7 @@
                 Remediation Schedule
               </p>
             </div>
-            <div class="d-flex align-center">
+            <div class="d-flex align-center service-card-content">
               <img
                 src="./assests/images/png/red-arrow.png"
                 width="10px"
@@ -243,7 +250,7 @@
                 Disaster Recovery Plan
               </p>
             </div>
-            <div class="d-flex align-center">
+            <div class="d-flex align-center service-card-content">
               <img
                 src="./assests/images/png/red-arrow.png"
                 width="10px"
@@ -254,7 +261,7 @@
                 Business Continuity
               </p>
             </div>
-            <div class="d-flex align-center">
+            <div class="d-flex align-center service-card-content">
               <img
                 src="./assests/images/png/red-arrow.png"
                 width="10px"
@@ -265,7 +272,7 @@
                 Planning User Security
               </p>
             </div>
-            <div class="d-flex align-center">
+            <div class="d-flex align-center service-card-content">
               <img
                 src="./assests/images/png/red-arrow.png"
                 width="10px"
@@ -276,7 +283,7 @@
                 Awareness Training
               </p>
             </div>
-            <div class="d-flex align-center">
+            <div class="d-flex align-center service-card-content">
               <img
                 src="./assests/images/png/red-arrow.png"
                 width="10px"
@@ -293,14 +300,11 @@
           <!-------- Card 3 start------->
           <div class="section-how-we-card">
             <div class="d-flex flex-col gap-lg align-center">
-              <div
-                class="section-how-we-card-img d-flex align-center justify-center"
-              >
+              <div class="d-flex align-center justify-center">
                 <img
-                  src="./assests/images/png/card-1-img.png"
-                  width="58px"
-                  height="63px"
-                  alt=""
+                  src="./assests/images/png/strategy.png"
+                  class="service-card-img"
+                  alt="strategy-img"
                 />
               </div>
               <p
@@ -310,7 +314,7 @@
               </p>
             </div>
 
-            <div class="d-flex align-center">
+            <div class="d-flex align-center service-card-content">
               <img
                 src="./assests/images/png/red-arrow.png"
                 width="10px"
@@ -321,7 +325,7 @@
                 Budget Planning
               </p>
             </div>
-            <div class="d-flex align-center">
+            <div class="d-flex align-center service-card-content">
               <img
                 src="./assests/images/png/red-arrow.png"
                 width="10px"
@@ -332,7 +336,7 @@
                 Strategic Planning
               </p>
             </div>
-            <div class="d-flex align-center">
+            <div class="d-flex align-center service-card-content">
               <img
                 src="./assests/images/png/red-arrow.png"
                 width="10px"
@@ -343,7 +347,7 @@
                 Increased Productivity
               </p>
             </div>
-            <div class="d-flex align-center">
+            <div class="d-flex align-center service-card-content">
               <img
                 src="./assests/images/png/red-arrow.png"
                 width="10px"
@@ -354,7 +358,7 @@
                 Increased Efficiency
               </p>
             </div>
-            <div class="d-flex align-center">
+            <div class="d-flex align-center service-card-content">
               <img
                 src="./assests/images/png/red-arrow.png"
                 width="10px"
@@ -365,7 +369,7 @@
                 Vendor Relationships
               </p>
             </div>
-            <div class="d-flex align-center">
+            <div class="d-flex align-center service-card-content">
               <img
                 src="./assests/images/png/red-arrow.png"
                 width="10px"
@@ -376,7 +380,7 @@
                 Project Management
               </p>
             </div>
-            <div class="d-flex align-center">
+            <div class="d-flex align-center service-card-content">
               <img
                 src="./assests/images/png/red-arrow.png"
                 width="10px"
@@ -387,7 +391,7 @@
                 IT Systems Documentation
               </p>
             </div>
-            <div class="d-flex align-center">
+            <div class="d-flex align-center service-card-content">
               <img
                 src="./assests/images/png/red-arrow.png"
                 width="10px"
@@ -407,15 +411,16 @@
 
       <!------ Business Class start -------->
       <section class="business-bg-img">
-        <div class="mx-width d-flex align-center justify-between gap-lg">
+        <div
+          class="mx-width d-flex align-center justify-between gap-base business-main"
+        >
           <p class="font-base business-class font-extrabold color-primary">
             Business-class IT solutions for your nonprofit or company
           </p>
 
           <img
             src="./assests/images/png/line-arrow.png"
-            width="18px"
-            height="173px"
+            class="line-arrow-img-class"
             alt="line-arrow-img"
           />
 
@@ -439,7 +444,10 @@
           <div class="people-focused-card">
             <div class="people-card-icon d-flex align-center justify-center">
               <img
-                src="./assests/images/png/people-img.png"
+                src="./assests/images/png/people-focused.png"
+                width="40px"
+                height="40px"
+                class="people-img"
                 alt="people-focused-img"
               />
             </div>
@@ -458,8 +466,11 @@
           <div class="people-focused-card">
             <div class="people-card-icon d-flex align-center justify-center">
               <img
-                src="./assests/images/png/people-img.png"
-                alt="people-focused-img"
+                src="./assests/images/png/proactive.png"
+                alt="proactive-img"
+                width="40px"
+                height="40px"
+                class="people-img"
               />
             </div>
             <div class="people-card-content">
@@ -477,8 +488,11 @@
           <div class="people-focused-card">
             <div class="people-card-icon d-flex align-center justify-center">
               <img
-                src="./assests/images/png/people-img.png"
-                alt="people-focused-img"
+                src="./assests/images/png/solution-driven.png"
+                alt="solution-driven-img"
+                width="40px"
+                height="40px"
+                class="people-img"
               />
             </div>
             <div class="people-card-content">
@@ -496,8 +510,11 @@
           <div class="people-focused-card">
             <div class="people-card-icon d-flex align-center justify-center">
               <img
-                src="./assests/images/png/people-img.png"
-                alt="people-focused-img"
+                src="./assests/images/png/dedicated.png"
+                alt="dedicated-img"
+                width="40px"
+                height="40px"
+                class="people-img"
               />
             </div>
             <div class="people-card-content">
@@ -515,8 +532,11 @@
           <div class="people-focused-card">
             <div class="people-card-icon d-flex align-center justify-center">
               <img
-                src="./assests/images/png/people-img.png"
-                alt="people-focused-img"
+                src="./assests/images/png/proven.png"
+                alt="proven-img"
+                width="40px"
+                height="40px"
+                class="people-img"
               />
             </div>
             <div class="people-card-content">
@@ -534,8 +554,11 @@
           <div class="people-focused-card">
             <div class="people-card-icon d-flex align-center justify-center">
               <img
-                src="./assests/images/png/people-img.png"
-                alt="people-focused-img"
+                src="./assests/images/png/approachable.png"
+                alt="approachable-img"
+                width="40px"
+                height="40px"
+                class="people-img"
               />
             </div>
             <div class="people-card-content">
@@ -553,20 +576,161 @@
       <!------- Dowload section start -->
       <section class="dowload-bg">
         <div class="mx-width">
-          <div>
-            <p
-              class="color-primary font-base font-extrabold dowload-section-main-content text-center"
-            >
-              Download your free Cybersecurity Risk self-assessment.
-            </p>
+          <div
+            class="dowolad-text-main d-flex flex-col justify-center align-center"
+          >
+            <div>
+              <p
+                class="color-primary font-base font-extrabold dowload-section-main-content text-center"
+              >
+                Download your free Cybersecurity Risk self-assessment.
+              </p>
 
-            <p>Here is your free Cybersecurity Risk Assessment ($550 value) to measure your overall cybersecurity strength.</p>
+              <div class="dowload-section-content d-flex flex-col">
+                <p
+                  class="color-primary font-sm font-medium cybersecurity-risk-assessment text-center"
+                >
+                  Here is your free Cybersecurity Risk Assessment ($550 value)
+                  to measure your overall cybersecurity strength.
+                </p>
+                <p
+                  class="color-primary font-sm font-medium cybersecurity-risk-assessment text-center"
+                >
+                  To discuss your score and what it means, simply reach out to
+                  us using the form below.
+                </p>
+              </div>
+            </div>
+
+            <button
+              class="dowload-btn color-primary font-small font-bold nav-btn:hover"
+            >
+              Download Now
+            </button>
+          </div>
+
+          <div class="d-flex align-center justify-center">
+            <div class="red-circle-dev">
+              <div class="book-img-main">
+                <img
+                  src="./assests/images/png/dowload-section-book.png"
+                  alt="dowload-section-book"
+                  width="698px"
+                  height="503px"
+                  class="book-img"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </section>
       <!------- Dowload section end-->
+
+      <!-------------- Logo section start ---------->
+      <section class="mx-width">
+        <div class="logo-main d-flex align-center justify-between">
+          <!-- 1 start -->
+          <div class="logo-card gold-logo">
+            <img
+              src="./assests/images/png/gold.png"
+              width="109px"
+              height="109px"
+              alt="gold-logo-img"
+            />
+          </div>
+          <!-- 1 end -->
+          <!-- 2 start -->
+          <div class="dell-logo logo-card">
+            <img
+              src="./assests/images/png/dell.png"
+              width="171px"
+              height="84px"
+              alt="dell-logo-img"
+            />
+          </div>
+          <!-- 2 end -->
+          <!-- 3 start -->
+          <div class="logo-card microsoft-logo">
+            <img
+              src="./assests/images/png/microsoft.png"
+              width="167px"
+              height="95px"
+              alt="microsoft-logo-img"
+            />
+          </div>
+          <!-- 3 end -->
+          <!-- 4 start -->
+          <div class="logo-card sentiel-logo">
+            <img
+              src="./assests/images/png/sentinelone.png"
+              width="117px"
+              height="117px"
+              alt="sentinelone-logo-img"
+            />
+          </div>
+          <!-- 4 end -->
+          <!-- 5 start -->
+          <div class="logo-card fortinet-logo">
+            <img
+              src="./assests/images/png/fortinet.png"
+              width="170px"
+              height="77px"
+              alt="fortinet-logo-img"
+            />
+          </div>
+        </div>
+        <!-- 5 end -->
+      </section>
+      <!-------------- Logo section end ---------->
     </main>
-    <footer></footer>
+    <footer class="footer-bg">
+      <div class="mx-width">
+        <div class="footer-main d-flex justify-between align-center">
+          <img
+            src="./assests/images/png/logo.png"
+            width="319px"
+            height="40px"
+            class="footer-logo"
+            alt="logo"
+          />
+          <div class="links-copyright-main d-flex flex-col justify-center">
+            <div class="footer-links d-flex align-center">
+              <a href="https://facebook.com">
+                <img
+                  src="./assests/images/png/facebook.png"
+                  alt="facebook-logo"
+                  width="51px"
+                  height="51px"
+                  class="logo"
+                />
+              </a>
+              <a href="https://twitter.com">
+                <img
+                  src="./assests/images/png/twitter.png"
+                  alt="twitter-logo"
+                  width="51px"
+                  height="51px"
+                  class="logo"
+                />
+              </a>
+              <a href="https://linkedIn.com">
+                <img
+                  src="./assests/images/png/linkedIn.png"
+                  alt="linkedIn"
+                  width="51px"
+                  height="51px"
+                  class="logo"
+                />
+              </a>
+            </div>
+            <p class="font font-semibold color-primary copyright">
+              Copyright © 2025 American-Pcs. All rights reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./assests/js/index.js"></script>
   </body>
 </html>
-
